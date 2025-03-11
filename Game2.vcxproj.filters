@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Main">
+      <UniqueIdentifier>{ba59fb1f-7173-4ff3-b9cf-7ccefb97c7a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Weapon">
+      <UniqueIdentifier>{d1fa1f2d-628b-4282-a501-b5252b898e00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Player">
+      <UniqueIdentifier>{88ea5ea5-86b6-4a2c-9f2e-f91031de4d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Map">
+      <UniqueIdentifier>{69661ab1-e143-434e-aadc-319432bced21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Bullet">
+      <UniqueIdentifier>{f82f6454-c44e-4c15-90b6-5f6dbc432abc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\Main\main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\Main\MainGame.h">
+      <Filter>Файлы заголовков\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Map\Map.h">
+      <Filter>Файлы заголовков\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Bullet\Bullet.h">
+      <Filter>Файлы заголовков\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Bullet\BulletSystem.h">
+      <Filter>Файлы заголовков\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Player\Player.h">
+      <Filter>Файлы заголовков\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Weapon\Weapon.h">
+      <Filter>Файлы заголовков\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Weapon\WeaponAssaultRifle.h">
+      <Filter>Файлы заголовков\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Weapon\WeaponPistol.h">
+      <Filter>Файлы заголовков\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="code\Weapon\WeaponShotgun.h">
+      <Filter>Файлы заголовков\Weapon</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
